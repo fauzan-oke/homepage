@@ -1,0 +1,179 @@
+body {
+    background-color: #212529;
+    /* Ganti dengan warna latar belakang yang Anda inginkan */
+}
+
+.navbar-brand {
+    font-family: 'Dancing Script', cursive;
+}
+
+.navbar-dark .navbar-brand {
+    color: #ffffffd3;
+    /* Warna teks pada navbar */
+}
+
+/* .navbar-nav {
+    display: flex;
+    justify-content: center;
+} */
+
+.navbar-nav .nav-item {
+    margin-right: 100%;
+    /* Sesuaikan nilai ini sesuai dengan preferensi Anda */
+}
+
+.jumbotron {
+    padding: 7rem 1rem;
+    background-color: #000000;
+    color: #ffffffd3;
+}
+
+.jumbotron img {
+    margin-top: -150px;
+    width: 100%;
+    /* Mengatur lebar gambar */
+    /* margin-left: 10px;
+    Mengatur jarak antara gambar dan teks */
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .jumbotron img {
+        width: 100%;
+        /* Mengatur lebar gambar */
+        /* margin-left: 10px;
+        Mengatur jarak antara gambar dan teks */
+    }
+}
+
+.custom-btn-xl {
+    font-size: 18px;
+    /* Ukuran font tombol */
+    padding: 30px 150px;
+    /* Ruang padding di atas dan bawah, serta ruang padding di kiri dan kanan */
+    border-radius: 10px;
+    /* Sudut melengkung tombol */
+    background-color: #212529;
+    /* Warna latar belakang tombol */
+    color: white;
+    /* Warna teks tombol */
+    border: none;
+    /* Hapus border tombol */
+}
+
+.custom-btn-xl:hover {
+    background-color: #161819;
+    /* Warna latar belakang tombol saat dihover */
+}
+
+.custom-btn-l {
+    font-size: 18px;
+    /* Ukuran font tombol */
+    padding: 30px 50px;
+    /* Ruang padding di atas dan bawah, serta ruang padding di kiri dan kanan */
+    border-radius: 10px;
+    /* Sudut melengkung tombol */
+    background-color: #212529;
+    /* Warna latar belakang tombol */
+    color: white;
+    /* Warna teks tombol */
+    border: none;
+    /* Hapus border tombol */
+}
+
+.custom-btn-l:hover {
+    background-color: #161819;
+    /* Warna latar belakang tombol saat dihover */
+}
+
+.custom-btn-m {
+    font-size: 18px;
+    /* Ukuran font tombol */
+    padding: 30px 50px;
+    /* Ruang padding di atas dan bawah, serta ruang padding di kiri dan kanan */
+    border-radius: 10px;
+    /* Sudut melengkung tombol */
+    background-color: #212529;
+    /* Warna latar belakang tombol */
+    color: white;
+    /* Warna teks tombol */
+    border: none;
+    /* Hapus border tombol */
+}
+
+.custom-btn-m:hover {
+    background-color: #161819;
+    /* Warna latar belakang tombol saat dihover */
+}
+
+.custom-btn {
+    font-size: 13px;
+    /* Ukuran font tombol */
+    padding: 5px 30px;
+    /* Ruang padding di atas dan bawah, serta ruang padding di kiri dan kanan */
+    border-radius: 30px;
+    /* Sudut melengkung tombol */
+    background-color: #ffffff;
+    /* Warna latar belakang tombol */
+    color: rgb(0, 0, 0);
+    /* Warna teks tombol */
+    border: none;
+    /* Hapus border tombol */
+}
+
+.custom-btn:hover {
+    background-color: #58595b;
+    /* Warna latar belakang tombol saat dihover */
+}
+
+.card {
+    /* border-radius: 30px; */
+    /* Sesuaikan nilai ini untuk mengatur tingkat kelengkungan */
+    overflow: hidden;
+    /* Memastikan konten dalam kartu tidak keluar dari sudut melengkung */
+    margin-right: 50px;
+}
+
+.bg-custom {
+    background-color: #000000;
+    color: #ffffffd3;
+    border: none;
+    /* Ganti dengan kode warna yang Anda inginkan */
+}
+
+.custom-heading {
+    font-size: 18px;
+    font-weight: bold;
+    color: #db8369;
+    /* Ganti dengan kode warna yang Anda inginkan */
+}
+
+
+
+.custom-footer {
+    font-size: 15px;
+    font-weight: bold;
+    color: #5f5c5cd3;
+}
+
+.jumbo-footer {
+    padding: 7rem 1rem;
+    background-color: #000000;
+    color: #ffffffd3;
+}
+
+.custom-input-group {
+    max-width: 300px;
+    /* Sesuaikan lebar yang Anda inginkan */
+    margin: 0 auto;
+    /* Untuk membuatnya berada di tengah */
+}
